@@ -1,0 +1,27 @@
+body {
+    background-image: url(img/fundo2.jpg);
+    background-size: cover;
+    height: 95vh; 
+    width: 95;
+    display: flex;
+    justify-content: center; /*Alinha HORIZONTALMENTE no meio*/
+    align-items: center; /*Alinha VERTICALMENTE no meio*/
+    flex-direction: column; 
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: #EEF90A;
+    border: 5px solid red;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
